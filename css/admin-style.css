@@ -1,0 +1,195 @@
+/*###############  OPTIONS PAGE  ###############*/
+
+.tab-content{
+	display: none;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: block;
+}
+/*###############  OPTIONS PAGE  ###############*/
+
+.gallery-current-options {
+	display:none;
+}
+.gallery-current-options.active {
+	display:block;
+}
+#gallery-options-list {
+	width:100%;
+	background:#fff;
+}
+#gallery-view-tabs {
+	position:relative;
+	list-style:none;
+	border-bottom:1px solid #ddd;
+	height:40px;
+	padding-top:10px;
+	margin-bottom:0px;
+}
+#gallery-view-tabs  li  {
+	float:left;
+	margin:0px 5px 0px 5px;
+}
+#gallery-view-tabs  li a {
+	display:block;
+	height:30px;
+	padding:10px 10px 0px 10px;
+	border:1px solid #ddd;
+	border-bottom:0px;
+	text-decoration:none;
+}
+#gallery-view-tabs  li.active a {
+	background:#fff;
+}
+#gallery-view-tabs-contents > li  {
+	position:relative;
+	width:100%;
+	float:left;
+	display:none;
+}
+#gallery-view-tabs-contents > li.active  {
+	display:block;
+}
+#gallery-view-tabs-contents {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 97%;
+}
+#gallery-view-tabs-contents > li  > div {
+	position:relative;
+	display:block;
+	float:left;
+	margin:10px 1% 25px 1%;
+	padding:0px 1% 10px 1%;
+	width:46%;
+	background:#f9f9f9;
+}
+#gallery-view-tabs-contents > li   div.has-background {
+	background:#fff;
+}
+#gallery-view-tabs-contents > li   div.has-height > div {
+	display:inline-block;
+}
+#gallery-view-tabs-contents > li  > div  h3 {
+	display:block;
+	text-align:center;
+	margin:0px 0px 10px 0px;
+}
+#gallery-view-tabs-contents > li  > div > div {
+	position:relative;
+	clear:both;
+	width:100%;
+	height:35px;
+	padding:5px 0px 0px 0px !important;
+	margin:0px !important;
+}
+#gallery-view-tabs-contents > li  > div  div.has-height {
+	height:auto;padding:0px !important;
+} 
+#gallery-view-tabs-contents > li  > div > div label {
+	display:inline-block;
+	width:60%;
+	padding:5px 0px 0px 2%;
+	height:30px;
+	float:left;
+}
+#gallery-view-tabs-contents > li  > div > div div.slider-container {
+	position:relative;
+	display: inline-block;
+	width: 145px;
+	margin-left:-5px;
+}
+#gallery-view-tabs-contents > li  > div > div div.slider-container span {
+	position:absolute;
+	top:-3px;
+	right:0px;
+}
+#gallery-view-tabs-contents > li  > div > div input[type='text'],#gallery-view-tabs-contents > li  > div > div select {
+	width:100px;
+}
+#gallery-view-tabs-contents > li  > div > div input[type='checkbox'] {
+	margin:7px 0px 3px 0px;
+}
+#gallery-view-tabs-contents > li  > div > div .bws_position_table input {
+	margin:3px 17px 3px 3px;
+}
+#arrows-type {
+	display:table;
+	margin:0px;
+	padding:0px 0px 0px 20px;
+}
+#arrows-type li {
+	position:relative;
+	margin:0px 3% 10px 0px;
+	float:left;
+	border:1px solid #e5e5e5;
+}
+#arrows-type li.color {
+	background:#f9f9f9;
+}
+#arrows-type li.active {
+	border:1px solid #0074c2;
+}
+#arrows-type li > div {
+	position:relative;
+	width:155px;
+	height:145px;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+#arrows-type li > div p {
+	font-size:10px;
+	text-align:left;
+	vertical-align:bottom;
+}
+#arrows-type li  input {
+	position:relative;
+	vertical-align:middle;
+	width:170px;
+	height:160px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-radius:0px !important;
+	opacity:0;
+}
+
+
+#post-body-heading {
+    width: 100%;
+}
+#post-body-heading {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #e5e5e5;
+    height: 30px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+#post-body-heading h3 {
+    float: left;
+    margin: -5px 0 0 5px !important;
+    padding: 0;
+}
+#poststuff h3 {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 8px 12px;
+}
+
+#post-body-heading .button, #post-body-heading .button-primary {
+    float: right;
+    margin-right: 10px !important;
+}
+.wp-core-ui .button-primary {
+    background: #00a0d2 none repeat scroll 0 0;
+    border-color: #0073aa;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-decoration: none;
+}
